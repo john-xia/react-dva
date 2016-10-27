@@ -23,13 +23,16 @@ Install
 [安装依赖]
 
 ```bash
-node >= 5.0.0
+node >= v4.4.7
 ```
 ```bash
-$ npm install -g typescript typings
-$ typings install
+// Install dva-cli
+$ npm install dva-cli -g
+// Create app and start
+$ dva new myapp
+$ cd myapp
 $ npm install
-```
+$ npm start
 
 Usage
 -------
